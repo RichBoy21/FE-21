@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+header{
+    background-color: #1ABC9C;
+    height: 70px;
+}
+.wrapper {
+ width: 90%;
+ margin: 0 auto;
+ }
+.header-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+a:not(:last-child){
+    margin-right: 20px;
+}
+.social-icon:not(:last-child){
+    margin-right: 20px;
+}
+/* o nas*/
+
+.about{
+    display: flex;
+    align-items: center;
+
+}
+.about-img{
+    width: 50%;
+}
+.about-info{
+    padding: 0 65px;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.about-descr{
+    font-size: 20px;
+    text-align: justify;
+}
+.projects{
+    background-color: #DCFFEB ;
+    padding: 125px 0;
+    
+}
+h2{
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+.projects-list{
+    display: flex;
+    gap: 35px
+    ;
+
+}
+.projects-item{
+    width: calc(100% / 3 - 17px);
+}
+.footer-wrapper{
+    padding: 100px 110px 75px;
+  }
+h3{
+    font-size: 35px;
+    margin-bottom: 55px;}
+.footer-info{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+   padding: 0 75px;
+}
+.footer-img{
+   
+    margin-bottom: 35px;
+}
+.footer-litl{
+    font-size: 25px;
+    color: #999999;
+    margin-bottom: 25px;
+  
+}
+.footer-descr-color {
+    color: red;
+}
+
+
+  
+
+    
+
+
+
