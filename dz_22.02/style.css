@@ -1,0 +1,30 @@
+* {
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+
+.item, .item-1, .item-2 {
+    width: 200px;
+    height: 200px;
+}
+.item {
+    background-color: red;
+}
+.item-1 {
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    
+}
+.item-2 {
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    top: 85px;
+}
+.item-2:hover {
+    transform: scale(1.5);rotate: 45deg;
+}
